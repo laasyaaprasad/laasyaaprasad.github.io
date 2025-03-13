@@ -243,7 +243,7 @@
       ],
       "content": [
         "Identified critical issues in Snowflake databases, performed statistical analysis using Spark, streamlined data processing through an ETL pipeline to push data into snowflake, saving 25% time of product quality engineers time.",
-        "Integrated data from SQL and NoSQL databases, and build ensemble models to predict customer escalations across 50+ product families, improving accuracy by 15%.",
+        "Integrated data from SQL and NoSQL databases, and built ensemble models to predict customer escalations across 50+ product families, improving accuracy by 15%.",
         "Designed and deployed end-to-end machine learning models to evaluate performance metrics, developed Power BI dashboards for real-time analytics, and deployed the models on AWS Cloud."
       ]
     },
@@ -283,7 +283,7 @@
         "Scikit-learn"
       ],
       "content": [
-        "Developed experiment-based evaluation frameworks for sentiment analysis models and leveraged CNCF's SPIRE and SPIFFE technologies for cloud service identity configuration and authentication,resulting in enhanced workload security and reduced unauthorized access incidents",
+        "Developed experiment-based evaluation frameworks for sentiment analysis models and leveraged CNCF's SPIRE and SPIFFE technologies for cloud service identity and authentication,resulting in enhanced workload security and reduced unauthorized access incidents.",
         "Built a secure zero-trust environment and streamlined identity management across distributed systems. Simulated the workload API interaction and data retrieval using a python script in a docker container.",
         "Secured 3rd place in HPE CTY program and won a research grant."
       ]
