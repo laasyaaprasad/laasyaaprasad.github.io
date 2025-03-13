@@ -217,13 +217,13 @@
       "technologies": [
         "Python",
         "R",
-        "AWS",
-        "Power BI"
+        "SQL"
+    
       ],
       "content": [
-        "Conducted in-depth analysis of payments data, uncovering key insights that were leveraged by the sales team to secure three new clients, contributing to a 20% increase in revenue, and further optimizing fraud detection strategies.",
-        "Analyzed historical payment patterns and outliers using Python, leading to actionable insights that drove a 10% reduction in default rates, and further implemented data-driven strategies that significantly improved risk management by 25%",
-        "Worked on its entity resolution model that leverages the Expectation Maximization Algorithm to create a persistent ID that facilitates deduplication and eliminates data redundancy, leading to a 30% increase in fraudulent transaction identification"
+        "Segmented transactions into 4 distinct categories and developed a predictive Markov Model based on historical data to forecast the probability of transaction success versus returns, enabling targeted strategies to reduce payment failures. ",
+        "Engineered new temporal features and analyzed ACH payments data using Python and R through exploratory data analysis, identifying key correlations and critical transaction return codes that directly impacted transaction success rates.",
+        "Worked on an Entity Resolution Model leveraging the Expectation-Maximization Algorithm to create a persistent ID, eliminating data redundancy and increasing fraudulent transaction identification."
       ]
     },
     {
