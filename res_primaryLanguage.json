@@ -78,7 +78,7 @@
     {
       "title": "Harvard Agriculture Datathon 2024",
       "startDate": "2024",
-      "description": "Explored the relationship between aging farmer demographics and agricultural production across the U.S. by analyzing crop sales data and adjusting for inflation to understand the economic impact. Uncovered regional trends and assessed how the rising average age of farmers affected future food production and sustainability.",
+      "description": "I’m Laasya Anantha Prasad, a grad student at Northeastern University pursuing my Master’s in Data Science. I’m passionate about using data to tackle real-world problems and have experience working with statistics, machine learning, and generative AI.\n\nWhen I’m not immersed in code or exploring new tech, you’ll probably find me playing chess—I love the strategy and focus it takes—or participating in datathons, where I get to work on exciting challenges with other data enthusiasts.\n\nI also enjoy capturing little moments. Check out my <a href=\"https://vsco.co/dailyhours/gallery\" target=\"_blank\">VSCO</a>!\n\nHiking helps me escape the chaos and recharge with a good trail now and then.\n\nWhether I’m solving problems with data, playing chess, or exploring the outdoors, I’m always curious and looking for new ways to grow and learn ⭐.",
       "images": [
         "images/InflationSales.png",
         "images/SarimaForecast.png",
