@@ -242,9 +242,9 @@
         "Tableau"
       ],
       "content": [
-        "Developed an algorithm to identify critical issues in Oracle databases and Snowflake data lakes. Performed statistical data analysis using Spark, extracted actionable insights with Tableau, and achieved a 40% improvement in accuracy and efficiency.",
-        "Conducted exploratory data analysis (EDA) on cross-functional data from multiple sources, integrated SQL and NoSQL databases for customer escalation prediction across 50+ product families, and improved prediction accuracy by 15%.        ",
-        "Designed and prototyped an end-to-end machine learning model to evaluate performance metrics, and created insightful Power BI dashboards. Visualized insights using R and Python alongside maintaining, and deploying the model on AWS cloud."
+        "Identified critical issues in Snowflake databases, performed statistical analysis using Spark, streamlined data processing through an ETL pipeline to push data into snowflake, saving 25% time of product quality engineers time.",
+        "Integrated data from SQL and NoSQL databases, and build ensemble models to predict customer escalations across 50+ product families, improving accuracy by 15%.",
+        "Designed and deployed end-to-end machine learning models to evaluate performance metrics, developed Power BI dashboards for real-time analytics, and deployed the models on AWS Cloud."
       ]
     },
     {
@@ -261,14 +261,14 @@
         "NLTK"
       ],
       "content": [
-        "Engineered an NLP model to streamline web scraping, optimizing data categorization and classification within unstructured data, improving processing efficiency by 25%. Streamlined existing models using libraries like NLTK and Beautiful Soup",
+        "Engineered an NLP model to streamline web scraping, optimizing data categorization and classification within unstructured data, reducing manual efforts by 20%. Streamlined existing models using libraries like NLTK and Beautiful Soup",
         "Set up MongoDB databases for horizontal scaling. Improved data processing capabilities by integrating specialized libraries resulting in a 25% data retrieval performance boost.",
         "Expanded data accessibility by leveraging open-source APIs to translate extracted information into three regional languages."
       ]
     },
     {
       "company": "Hewlett Packard Enterprise",
-      "title": "Research Intern",
+      "title": "Research and Data Intern",
       "years": "April 2022 - September 2022",
       "mainTech": [
         "Python",
@@ -283,7 +283,7 @@
         "Scikit-learn"
       ],
       "content": [
-        "Implemented measures including node attestation, cloud service identity, and authentication, leveraging CNCF's SPIRE and SPIFFE technologies, resulting in enhanced workload security, reduced unauthorized access incidents by 30%.",
+        "Developed experiment-based evaluation frameworks for sentiment analysis models and leveraged CNCF's SPIRE and SPIFFE technologies for cloud service identity configuration and authentication,resulting in enhanced workload security and reduced unauthorized access incidents",
         "Built a secure zero-trust environment and streamlined identity management across distributed systems. Simulated the workload API interaction and data retrieval using a python script in a docker container.",
         "Secured 3rd place in HPE CTY program and won a research grant."
       ]
