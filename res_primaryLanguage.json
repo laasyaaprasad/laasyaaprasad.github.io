@@ -297,6 +297,12 @@
   },
   "achievements": [
     {
+      "title": "Society of Distinction 2025- Laurel and Scroll 100",
+      "description": "Recognized as one of Northeastern's top 100 graduating students through the Laurel and Scroll induction for outstanding academic performance, leadership, and impactful contributions to the university community.",
+      "image": "/images/portfolio/achievements/laurel-scroll.jpg",
+      "tags": ["Student Leadership", "Academic Honors", "Community Impact"]
+    },
+    {
       "title": "Harvard Agriculture Datathon 2024",
       "description": "Won first place in the 3 day datathon competing againt 30+ teams from multiple universities across the U.S.",
       "image": "/images/portfolio/achievements/datathon.jpg",
