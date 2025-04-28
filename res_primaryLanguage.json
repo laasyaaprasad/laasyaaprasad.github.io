@@ -208,7 +208,6 @@
   "experience": [
     {
       "company": "ValidiFi",
-      "title": "Data Science and Analytics Summer Intern",
       "years": "June 2024 - September 2024",
       "mainTech": [
         "Statistical Modeling",
@@ -221,14 +220,13 @@
     
       ],
       "content": [
-        "Segmented transactions into 4 distinct categories and developed a predictive Markov Model based on historical data to forecast the probability of transaction success versus returns, enabling targeted strategies to reduce payment failures. ",
-        "Engineered new temporal features and analyzed ACH payments data using Python and R through exploratory data analysis, identifying key correlations and critical transaction return codes that directly impacted transaction success rates.",
-        "Worked on an Entity Resolution Model leveraging the Expectation-Maximization Algorithm to create a persistent ID, eliminating data redundancy and increasing fraudulent transaction identification."
+        "Explored Risk management and Fraud Detctection in Finance! ",
+        "Engineered a forecasting model to predict the probability of transaction success versus returns",
+        "Leveraging the Expectation-Maximization Algorithm to eliminating data redundancy."
       ]
     },
     {
       "company": "Cisco Systems",
-      "title": "Data Science Co-Op",
       "years": "January 2023 - June 2023",
       "mainTech": [
         "Machine Learning",
@@ -242,14 +240,13 @@
         "Tableau"
       ],
       "content": [
-        "Identified critical issues in Snowflake databases, performed statistical analysis using Spark, streamlined data processing through an ETL pipeline to push data into snowflake, saving 25% time of product quality engineers time.",
-        "Integrated data from SQL and NoSQL databases, and built ensemble models to predict customer escalations across 50+ product families, improving accuracy by 15%.",
-        "Designed and deployed end-to-end machine learning models to evaluate performance metrics, developed Power BI dashboards for real-time analytics, and deployed the models on AWS Cloud."
+        "Built ensemble models to predict customer escalations.",
+        "Worked with SQL and NoSQL databases to integrate data from multiple sources.",
+        "Designed pipelined, deployed end-to-end models and developed dashboards for real-time analytics."
       ]
     },
     {
       "company": "KrtrimaIQ Cognitive Solutions",
-      "title": "Data Science Intern",
       "years": "October 2022 - December 2022",
       "mainTech": [
         "NLP",
@@ -261,14 +258,13 @@
         "NLTK"
       ],
       "content": [
-        "Engineered an NLP model to streamline web scraping, optimizing data categorization and classification within unstructured data, reducing manual efforts by 20%. Streamlined existing models using libraries like NLTK and Beautiful Soup",
-        "Set up MongoDB databases for horizontal scaling. Improved data processing capabilities by integrating specialized libraries resulting in a 25% data retrieval performance boost.",
-        "Expanded data accessibility by leveraging open-source APIs to translate extracted information into three regional languages."
+        "Streamlined data scraping for language translation",
+        "Set up MongoDB databases for organizing data",
+        "Translate extracted information into three regional languages."
       ]
     },
     {
       "company": "Hewlett Packard Enterprise",
-      "title": "Research and Data Intern",
       "years": "April 2022 - September 2022",
       "mainTech": [
         "Python",
@@ -283,8 +279,8 @@
         "Scikit-learn"
       ],
       "content": [
-        "Developed experiment-based evaluation frameworks for sentiment analysis models and leveraged CNCF's SPIRE and SPIFFE technologies for cloud service identity and authentication,resulting in enhanced workload security and reduced unauthorized access incidents.",
-        "Built a secure zero-trust environment and streamlined identity management across distributed systems. Simulated the workload API interaction and data retrieval using a python script in a docker container.",
+        "Explored Zero-Trust Architecture",
+        "Worked at the intersection of data and security",
         "Secured 3rd place in HPE CTY program and won a research grant."
       ]
     }
