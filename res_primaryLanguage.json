@@ -207,6 +207,25 @@
   ],
   "experience": [
     {
+      "company": "Wolters Kluwer",
+      "years": "August 2025 - Present",
+      "mainTech": [
+        "AI",
+        "Data Science"
+      ],
+      "technologies": [
+        "Python",
+        "R",
+        "SQL"
+    
+      ],
+      "content": [
+        "Built an internal AI agent that handles reimbursements",
+        "Designed a hybrid solution: XGBoost + an AI layer on top of traditional ML, cutting manual invoice review time."
+      ]
+    },
+
+    {
       "company": "ValidiFi",
       "years": "June 2024 - September 2024",
       "mainTech": [
