@@ -1,14 +1,15 @@
 {
   "basic_info": {
-      "description_header": "Hi 👋 ",
-      "description": "I'm Laasya Anantha Prasad, a Data and AI Scientist at Wolters Kluwer in New York City. I work with the Product Intelligence and AI Incubation team, where I explore emerging technologies, rapidly build and iterate on ideas at scale, and create end-to-end agentic AI solutions that turn concepts into tools our customers and internal teams can actually use.\n\nI graduated from Northeastern University with a Master's in Data Science in May 2025, where my research focused on responsible AI and human–AI interaction.\n\nWhen I'm not working, you'll probably find me playing chess, taking photos, or traveling.",
-      "section_name": {
+    "description_header": "Hi 👋 ",
+    "description": "I’m Laasya Anantha Prasad, a Data and AI Scientist at Wolters Kluwer in New York City.\n\nI build end-to-end agentic AI solutions, turning ideas into tools our customers and internal teams can actually use.\n\nI graduated from Northeastern University with a Master’s in Data Science in May 2025, where I researched responsible AI and human–AI interaction. Outside of work, I enjoy playing chess, taking photos, and traveling.",
+    "section_name": {
       "about": "About Me",
       "projects": "Projects",
       "skills": "Skills",
       "experience": "Experience",
       "achievements": "Achievements"
-    }
+    },
+    "current": "Currently, I work with Wolters Kluwer’s Product Intelligence and AI Incubation team, exploring emerging technologies and turning promising ideas into useful AI tools."
   },
   "education": [
     {
@@ -18,20 +19,19 @@
       "years": "Sep 2023 - May 2025",
       "gpa": "3.857",
       "Research Assistant": [
-          "Worked as a research assistant under Professor Kwong Chan as part of <a href='https://damore-mckim.northeastern.edu/dash' target='_blank'>DMSB AI Strategic Hub</a> to build a feedback bot to automate assignment grading on canvas"
-        ],
+        "Worked as a research assistant under Professor Kwong Chan as part of <a href='https://damore-mckim.northeastern.edu/dash' target='_blank'>DMSB AI Strategic Hub</a> to build a feedback bot to automate assignment grading on canvas"
+      ],
       "Teaching Assistant": [
         "Worked as a teaching assistant for <a href='https://course.ccs.neu.edu/cs1800/course_staff.html' target='_blank'>CS1800-Discrete Structures in Mathematics</a> under Professor Matt Higger",
         "Worked as a teaching assistant for <a href='https://catalog.northeastern.edu/course-descriptions/mism/' target='_blank'>MSIM6212 - Data Mining and Machine Learning for Business</a> under Prof. Xiupeng Wang",
         "Worked as a teaching assistant for <a href='https://www.khoury.northeastern.edu/home/vkp/3800-sp13/Course_Overview.html' target='_blank'>CS3800 - Theory of Computation</a> under Prof. Walter Schnyder"
       ],
-      
       "coursework": [
         "DS5110 Introduction to Data Management and Processing, CS5800 Algorithms, DS5220 Supervised Machine Learning, DS5230 Unsupervised Machine Learning, CS6120 Natural Language Processing, DS5983 Large Language Models, DS5500 Data Science Capstone"
       ],
       "extra": [
         "Member of the <a href='https://www.khoury.northeastern.edu/clubs_and_orgs/the-data-science-hub-boston/' target='_blank'>Data Science Hub</a> at Northeastern University"
-      ]      
+      ]
     },
     {
       "institution": "B. M. S. College of Engineering",
@@ -48,7 +48,7 @@
         "Member of the Rotaract club and part of <a href='https://bmscerotaract.wordpress.com/2019/10/09/iteach-phase-11-opening-session/' target='_blank'>iTeach initiative</a>  at BMSCE",
         "Member of <a href =https://www.bmsceieee.com/home target='_blank'>IEEE Student Branch</a> at BMSCE",
         "Member of the university chess team"
-      ] 
+      ]
     }
   ],
   "projects": [
@@ -61,7 +61,6 @@
         "images/FinAdvisor_FeaturePipeline.jpg",
         "images/FinAdvisorResults.png",
         "images/Gradio.png"
-        
       ],
       "url": "https://github.com/laasyaaprasad/FinAdvisor_LLM",
       "technologies": [
@@ -203,7 +202,6 @@
         }
       ]
     }
-    
   ],
   "experience": [
     {
@@ -217,14 +215,12 @@
         "Python",
         "R",
         "SQL"
-    
       ],
       "content": [
         "Built an internal AI agent that handles reimbursements",
         "Designed a hybrid solution: XGBoost + an AI layer on top of traditional ML, cutting manual invoice review time."
       ]
     },
-
     {
       "company": "ValidiFi",
       "years": "June 2024 - September 2024",
@@ -236,7 +232,6 @@
         "Python",
         "R",
         "SQL"
-    
       ],
       "content": [
         "Explored Risk management and Fraud Detctection in Finance! ",
@@ -305,29 +300,63 @@
     }
   ],
   "skills": {
-    "languages": ["Python", "R", "C++", "Java"],
-    "frameworks": ["TensorFlow", "React", "Docker", "Spark"],
-    "databases": ["MySQL", "MongoDB", "Snowflake", "OracleDB"],
-    "tools": ["Power BI", "Tableau", "AWS", "Google Cloud"]
+    "languages": [
+      "Python",
+      "R",
+      "C++",
+      "Java"
+    ],
+    "frameworks": [
+      "TensorFlow",
+      "React",
+      "Docker",
+      "Spark"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB",
+      "Snowflake",
+      "OracleDB"
+    ],
+    "tools": [
+      "Power BI",
+      "Tableau",
+      "AWS",
+      "Google Cloud"
+    ]
   },
   "achievements": [
     {
       "title": "Society of Distinction 2025- Laurel and Scroll 100",
       "description": "Recognized as one of Northeastern's top 100 graduating students through the Laurel and Scroll induction for outstanding academic performance, leadership, and impactful contributions to the university community.",
       "image": "/images/portfolio/achievements/laurel-scroll.jpg",
-      "tags": ["Student Leadership", "Academic Honors", "Community Impact"]
+      "tags": [
+        "Student Leadership",
+        "Academic Honors",
+        "Community Impact"
+      ]
     },
     {
       "title": "Harvard Agriculture Datathon 2024",
       "description": "Won first place in the 3 day datathon competing againt 30+ teams from multiple universities across the U.S.",
       "image": "/images/portfolio/achievements/datathon.jpg",
-      "tags": ["Data Science", "60 hour datathon", "First Place"]
+      "tags": [
+        "Data Science",
+        "60 hour datathon",
+        "First Place"
+      ]
     },
     {
       "title": "Research Publication",
       "description": "Published a research paper on object detection in IEEE Xplore.",
       "image": "/images/portfolio/achievements/research.png",
-      "tags": ["Research", "RCNN", "SSD", "YOLO", "Publication"]
+      "tags": [
+        "Research",
+        "RCNN",
+        "SSD",
+        "YOLO",
+        "Publication"
+      ]
     }
   ]
 }

@@ -1,3 +1,4 @@
+/* Portfolio UI refresh: d2d4da8 + hero/about update */
 /**
  * Welcome to your Workbox-powered service worker!
  *
