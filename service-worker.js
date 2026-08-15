@@ -1,4 +1,4 @@
-/* Portfolio UI refresh: d2d4da8 + hero/about update */
+/* Portfolio UI refresh: runtime loading fallback */
 /**
  * Welcome to your Workbox-powered service worker!
  *
