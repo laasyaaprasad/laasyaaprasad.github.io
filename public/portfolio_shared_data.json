@@ -1,0 +1,58 @@
+{
+  "basic_info": {
+    "name": "Laasya Anantha Prasad",
+    "titles": ["Data Scientist", "Data Analyst","Foodie"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/laasyaaprasad",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/laasyaaprasad",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "95"
+      },
+      {
+        "name": "R",
+        "class": "devicon-r-plain",
+        "level": "90"
+      },
+      {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain",
+        "level": "85"
+      },
+      {
+        "name": "TensorFlow",
+        "class": "devicon-tensorflow-original",
+        "level": "80"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "75"
+      },
+      {
+        "name": "Spark",
+        "class": "devicon-apache-plain",
+        "level": "70"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain",
+        "level": "75"
+      }
+    ]
+  }
+}

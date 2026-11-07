@@ -1,0 +1,199 @@
+body[data-theme="dark"] {
+
+   @import '../src/scss/dark-slider.scss';
+
+   .slider-tab {
+      background-color: #8C8C8C;
+   }
+
+   .title-styles {
+      color: white;
+   }
+
+   .header-icon {
+      color: #3C342C;
+      opacity: 0.8;
+   }
+
+   .slider-image {
+      border: 5px solid #8C8C8C;
+   }
+
+   .language {
+      background-color: #000000;
+   }
+
+   .link-href {
+      color: white;
+   }
+
+   .project-date {
+      background-color: #000000;
+      color: white;
+   }
+
+   header {
+      background-color: #000000;
+      h1 {
+         color: white;
+      }
+   }
+
+   #about {
+      h1 span {
+         color: white;
+      }
+      .polaroid span {
+         background: #000000; // Dark purple background for polaroid spans
+      }
+      .card {
+         background: #000000; // Dark purple background for cards
+         color: white;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); // Optional shadow for cards
+         border-radius: 8px; // Optional rounded corners
+         padding: 16px; // Optional padding inside cards
+      }
+
+      .card-header {
+         background-color: #1F1F3A !important; // Dark purple background for card headers
+         border-radius: 8px;
+      }
+   }
+
+   #portfolio {
+      background: #000000;
+      .section-title {
+         color: white !important;
+      }
+      .foto div {
+         background: #1F1F3A; // Dark purple for portfolio images
+      }
+      .project-title-settings {
+         color: white;
+      }
+   }
+
+   #resume {
+      filter: brightness(80%);
+      background: #000000;
+      .section-title {
+         color: white !important;
+      }
+
+      .experience-badge {
+         background: #9D8ADE !important; /* Purple background */
+         color: white; /* White text */
+      }
+
+      .education-badge {
+         background: #000000 !important;
+         color: white;
+      }
+
+      .main-badge {
+         background: #9D8ADE !important; /* Purple background */
+         color: white; /* White text */
+      }
+
+      .vertical-timeline-element-date {
+         color: white;
+      }
+
+      /* Updated card styling to match achievements */
+      .vertical-timeline-element:not(.vertical-timeline-element--no-children) .vertical-timeline-element-content {
+         background: #2A2A4D;
+         color: #fff;
+         border-radius: 15px;
+         padding: 25px;
+         border: 1px solid rgba(157, 138, 222, 0.3);
+         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+         transition: all 0.3s ease;
+
+         &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(157, 138, 222, 0.4);
+         }
+      }
+
+      /* Fix for empty cards in the vertical timeline */
+      .vertical-timeline-element-content:empty {
+         display: none !important;
+      }
+
+      .vertical-timeline-element-icon {
+         background: #9D8ADE !important; /* Purple background for icons */
+         border: 2px solid #6E5AAD; /* Slightly darker border for contrast */
+         box-shadow: 0 4px 10px rgba(157, 138, 222, 0.5); /* Match icon shadow with achievements */
+      }
+
+      @media only screen and (max-width: 1169px) {
+         .vertical-timeline-element-date {
+            color: black;
+         }
+      }
+   }
+
+   #education {
+      filter: brightness(80%);
+      background: #000000;
+
+      .section-title {
+        color: white !important;
+      }
+
+      .vertical-timeline-element:not(.vertical-timeline-element--no-children) {
+        .vertical-timeline-element-content {
+          background: #2A2A4D;
+          color: white;
+          border: 1px solid rgba(157, 138, 222, 0.3);
+        }
+
+        .vertical-timeline-element-title {
+          color: white;
+        }
+
+        .vertical-timeline-element-subtitle {
+          color: white;
+        }
+
+        p {
+          color: white;
+        }
+
+        ul {
+          color: white;
+          li {
+            color: white;
+          }
+        }
+
+        .vertical-timeline-element-date {
+          color: white;
+        }
+      }
+
+      .vertical-timeline-element-icon {
+        background: #9D8ADE !important;
+        border: 2px solid #6E5AAD;
+        box-shadow: 0 4px 10px rgba(157, 138, 222, 0.5);
+      }
+
+      @media only screen and (max-width: 1169px) {
+        .vertical-timeline-element-date {
+          color: white;
+        }
+      }
+    }
+
+   .modal-inside .modal-content {
+      background: #000000;
+      color: white;
+   }
+
+   .close-icon {
+      color: white;
+   }
+
+
+
+}
