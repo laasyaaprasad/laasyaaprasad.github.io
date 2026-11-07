@@ -1,4 +1,3 @@
-/* Portfolio UI refresh: runtime loading fallback */
 /**
  * Welcome to your Workbox-powered service worker!
  *
@@ -15,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.1379f9bf0a6e6a4c.js"
+  "/precache-manifest.591a0b6aad0ecf0b13d3a90e24f69bc7.js"
 );
 
 self.addEventListener('message', (event) => {
