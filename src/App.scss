@@ -666,8 +666,11 @@ footer a:focus {
     display: block;
     width: 100%;
     max-width: 100%;
-    height: clamp(180px, 28vw, 280px);
-    object-fit: cover;
+    height: clamp(280px, 32vw, 420px);
+    padding: 14px;
+    object-fit: contain;
+    object-position: center;
+    background: #f8f7ff;
   }
 }
 
@@ -740,7 +743,7 @@ body[data-theme='dark'] {
   }
 
   .beyond-code-card > img {
-    height: 220px;
+    height: 280px;
   }
 
   .beyond-code-card-body {
