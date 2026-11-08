@@ -9,7 +9,6 @@ import Badge from "react-bootstrap/Badge";
 class Education extends Component {
   render() {
     if (this.props.resumeEducation && this.props.resumeBasicInfo) {
-      const sectionName = this.props.resumeBasicInfo.section_name.education;
       const educationDetails = this.props.resumeEducation.map((edu, i) => {
         const coursework = edu.coursework || [];
         const gpa = edu.gpa;

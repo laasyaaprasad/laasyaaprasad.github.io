@@ -22,13 +22,8 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                 <img
-                      style={{
-                        height: "300px", // Adjust height
-                        width: "520px",  // Adjust width to make it wider
-                        objectFit: "cover" // Ensures the image scales well and doesn't distort
-                      }}
                       src={profilepic}
-                      alt="Avatar placeholder"
+                      alt="Laasya Anantha Prasad"
                     />
                 </span>
               </div>
@@ -56,19 +51,9 @@ class About extends Component {
                       data-inline="false"
                     ></span>
                   </div>
-                  <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
-                    style={{
-                      height: "auto",
-                      fontSize: "132%",
-                      lineHeight: "200%",
-                    }}
-                  >
-                    <br />
-                    <span className="wave">{hello} </span>
-                    <br />
-                    <br />
-                    {about}
+                  <div className="card-body font-trebuchet about-copy">
+                    <p className="about-greeting"><span className="wave">{hello}</span></p>
+                    <p>{about}</p>
                   </div>
                 </div>
               </div>

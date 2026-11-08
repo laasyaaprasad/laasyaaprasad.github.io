@@ -25,12 +25,24 @@ class Projects extends Component {
             key={projects.title}
             style={{ cursor: "pointer" }}
           >
-            <span className="portfolio-item d-block">
-              <div className="foto" onClick={() => detailsModalShow(projects)}>
+            <div className="portfolio-item d-block">
+              <div
+                className="foto"
+                role="button"
+                tabIndex={0}
+                aria-label={`View details for ${projects.title}`}
+                onClick={() => detailsModalShow(projects)}
+                onKeyDown={(event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    detailsModalShow(projects);
+                  }
+                }}
+              >
                 <div>
                   <img
                     src={projects.images[0]}
-                    alt="projectImages"
+                    alt={projects.title}
                     height="230"
                     style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
                   />
@@ -41,7 +53,7 @@ class Projects extends Component {
                   </p>
                 </div>
               </div>
-            </span>
+            </div>
           </div>
         );
       });

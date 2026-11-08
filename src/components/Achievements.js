@@ -28,8 +28,6 @@ class Achievements extends Component {
           <div
             className="achievement-card"
             key={i}
-            data-aos="fade-up"
-            data-aos-delay={i * 100}
           >
             <div className="achievement-icon">
               <i className="fas fa-trophy"></i>
@@ -53,7 +51,7 @@ class Achievements extends Component {
                 )}
                 {/* Button for Laurel and Scroll */}
                 {achievement.title === "Society of Distinction 2025- Laurel and Scroll 100" && (
-                  <p
+                  <div
                     style={{
                       ...styles.resultsLink,
                       color: "white",
@@ -70,11 +68,11 @@ class Achievements extends Component {
                         Check it out!
                       </a>
                     </div>
-                  </p>
+                  </div>
                 )}
                 {/* Button for Harvard Agriculture Datathon */}
                 {achievement.title === "Harvard Agriculture Datathon 2024" && (
-                  <p
+                  <div
                     style={{
                       ...styles.resultsLink,
                       color: "white",
@@ -91,11 +89,11 @@ class Achievements extends Component {
                         Results
                       </a>
                     </div>
-                  </p>
+                  </div>
                 )}
                 {/* Button for Research Publication */}
                 {achievement.title === "Research Publication" && (
-                  <p
+                  <div
                     style={{
                       ...styles.resultsLink,
                       color: "white",
@@ -112,7 +110,7 @@ class Achievements extends Component {
                         Read the paper
                       </a>
                     </div>
-                  </p>
+                  </div>
                 )}
               </div>
               {achievement.image && (

@@ -6,35 +6,10 @@ import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
-    if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
-          return (
-            <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
-                </div>
-              </span>
-            </li>
-          );
-        });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
-      }
-    }
+    const { title, description, url, images = [] } = this.props.data || {};
+    const slides = images.map((image, index) => (
+      <div key={index} data-src={image} />
+    ));
     return (
       <Modal
         {...this.props}
@@ -43,9 +18,9 @@ class ProjectDetailsModal extends Component {
         centered
         className="modal-inside"
       >
-        <span onClick={this.props.onHide} className="modal-close">
-          <i className="fas fa-times fa-3x close-icon"></i>
-        </span>
+        <button type="button" onClick={this.props.onHide} className="modal-close" aria-label="Close project details">
+          <i className="fas fa-times fa-3x close-icon" aria-hidden="true"></i>
+        </button>
         <div className="col-md-12">
           <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
             <div className="slider-tab">
@@ -73,7 +48,7 @@ class ProjectDetailsModal extends Component {
               animation="scaleOutAnimation"
               className="slider-image"
             >
-              {img}
+              {slides}
             </AwesomeSlider>
           </div>
           <div className="col-md-10 mx-auto">

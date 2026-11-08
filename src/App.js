@@ -8,16 +8,8 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Achievements from "./components/Achievements"; // Import Achievements component
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Education from "./components/Education";
 import BeyondCode from "./components/BeyondCode";
-
-// In componentDidMount:
-AOS.init({
-  duration: 1000,
-  once: true
-});
 
 class App extends Component {
   constructor(props) {
